@@ -1,0 +1,18 @@
+print("------SIMPLE CALCULATOR-----")
+while True :
+ num1=float(input("Enter First number:"))
+ num2=float(input("Enter First number:"))
+ print("Press 1 for addition \nPress 2 for subtraction \nPress 3 for multiplication \nPress 4 for division")
+
+ choice =int(input("Enter your choice from 1-4: "))
+ if choice == 1:
+    print("addition of number", num1+num2)
+ elif choice == 2:
+    print("Subraction of number: ",num1-num2)
+ elif choice == 3:
+    print("Multiplication of number: ",num1*num1)
+ elif choice == 4:
+    print("Division of number: ",num1/num2)
+ else:
+    print("This is invalid \nEnter valid input")
+
